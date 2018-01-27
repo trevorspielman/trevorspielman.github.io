@@ -18,25 +18,28 @@
         <div class="row">
             <!-- Beginning of Navigation -->
             <div class="col-sm-8">
-                <ul class="nav m-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">
-                            <strong>HOME</strong>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Employment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
-                    </li>
-                </ul>
+                    <ul class="navbar m-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <strong>HOME</strong>
+                            </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#employment">Employment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                    </ul>
             </div>
             <!-- Phone and Contact Button go here. Dropdown card on contact button maybe? Slide out or fold out animation -->
             <div class="col-sm-2 align-self-center">
@@ -46,7 +49,7 @@
             </div>
             <div class="col-sm-2">
                 <div class="btn m-3">
-                    <a href="mailto:trevor.spielman@gmail.com?" target="_top">Email Me</a>
+                    <a href="mailto:trevor.spielman@gmail.com" target="_top">Email Me</a>
                 </div>
             </div>
         </div>
@@ -57,56 +60,95 @@
 <body class="body">
     <!-- flex Box for main image/content include icons for github, linkedin -->
     <div class="hero">
-        
-            <h1>Trevor Spielman</h1>
-            <h2 class="maroon">Full Stack Developer</h2>
-            <p>Highly Motivated and fully educated in the latest programming trends.</p>
-        
+        <h1>Trevor Spielman</h1>
+        <h2 class="maroon">Full Stack Developer</h2>
+        <p class="content-center">Highly Motivated and fully educated in the latest programming trends.</p>
     </div>
     <!-- Skills icon slider/cloud -->
     <!-- About me section-->
     <div class="container-fluid skills p-4">
         <div class="row about">
-            <div class="col-sm-12  content-center p-4">
-                <h3>About Me</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate temporibus esse quae consequatur
-                    rerum pariatur repellat sed nobis tempora cum labore, numquam dolorum qui libero laborum ipsum possimus
-                    illum sint! Voluptas, laborum? Necessitatibus, repellat? Voluptatum vero at maiores commodi necessitatibus
-                    aliquam unde inventore libero minus suscipit laudantium accusantium expedita placeat id quisquam
-                    in, beatae, maxime eum, eligendi optio labore explicabo? Aspernatur, veritatis ducimus consectetur
-                    error placeat nam tenetur obcaecati nemo alias doloremque magnam in, accusantium quisquam? Est id
-                    earum nam natus, maiores sed obcaecati odio. Corporis optio repellendus nesciunt! Doloribus.</p>
+            <div class="col-sm-12 col-md-8 content-center p-4">
+                <h3 id="about">About Me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate temporibus esse quae consequatur rerum
+                    pariatur repellat sed nobis tempora cum labore, numquam dolorum qui libero laborum ipsum possimus illum
+                    sint! Voluptas, laborum? Necessitatibus, repellat? Voluptatum vero at maiores commodi necessitatibus
+                    aliquam unde inventore libero minus suscipit laudantium accusantium expedita placeat id quisquam in,
+                    beatae, maxime eum, eligendi optio labore explicabo? Aspernatur, veritatis ducimus consectetur error
+                    placeat nam tenetur obcaecati nemo alias doloremque magnam in, accusantium quisquam? Est id earum nam
+                    natus, maiores sed obcaecati odio. Corporis optio repellendus nesciunt! Doloribus.</p>
+            </div>
+            <div class="col-sm-12 col-md-4 order-md-2 order-first content-center p-4">
+                <img src="http://via.placeholder.com/350x350" alt="Headshot of Trevor Spielman">
             </div>
         </div>
-        <div class="row">
+        <div class="row background">
             <div class="col-sm-12 content-center p-2">
-                <h3>Skills and Languages</h3>
-                <div class="row justify-content-center p-2">
+                <h3 id="skills">Skills and Languages</h3>
+                <div class="row justify-content-center p-3">
                     <div class="col">
-                        <img class="icons" src="assets/photos/html5-css3.png" alt="">
+                        <img class="icons" src="assets/photos/html5-css3.png" alt="html5 and css3 logo">
                     </div>
                     <div class="col">
-                        <img class="icons" src="assets/photos/git.png" alt="">
+                        <img class="icons" src="assets/photos/git.png" alt="git logo">
                     </div>
                     <div class="col">
-                        <img class="icons" src="assets/photos/javascript_logo.png" alt="">
+                        <img class="icons" src="assets/photos/nodejs.png" alt="javascript logoNode JS logo">
                     </div>
                     <div class="col">
-                        <img class="icons" src="assets/photos/bootstrap.svg" alt="">
+                        <img class="icons" src="assets/photos/bootstrap.svg" alt="bootstrap logo">
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col">
-                        <img class="icons" src="assets/photos/mysql.svg" alt="">
+                        <img class="icons" src="assets/photos/mysql.svg" alt="mysql logo">
                     </div>
                     <div class="col">
-                        <img class="icons" src="assets/photos/csharp.png" alt="">
+                        <img class="icons" src="assets/photos/csharp.png" alt="c# logo">
                     </div>
                     <div class="col">
-                        <img class="icons" src="assets/photos/nodejs.png" alt="">
+                        <img class="icons" src="assets/photos/javascript_logo.png" alt="javascript logo">
                     </div>
                     <div class="col">
-                        <img class="icons" src="assets/photos/viewjs.png" alt="">
+                        <img class="icons" src="assets/photos/viewjs.png" alt="viewjs logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col content-center">
+            <h3 id="projects">Projects</h3>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 4</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
             </div>
@@ -116,7 +158,7 @@
     <div class="container-fluid history">
         <div class="row">
             <div class="col-sm-12 content-center">
-                <h3>Work History</h3>
+                <h3 id="employment">Work History</h3>
                 <!-- description of how my work history impacts my programming -->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores aliquid quo temporibus sequi fuga
                     eos. Eos explicabo quidem voluptatibus, possimus, beatae impedit commodi iste, corrupti maxime dolores
@@ -233,7 +275,7 @@
     <div class="row">
         <!-- Education Section formatted with cards and a paralax(?) -->
         <div class="col-sm-12 content-center">
-            <h3>Education</h3>
+            <h3 id="education">Education</h3>
         </div>
         <div class="col-sm-6">
             <div class="education">
@@ -266,6 +308,7 @@
                 <ul>
                     <li>Home</li>
                     <li>Skills</li>
+                    <li>Projects</li>
                     <li>About</li>
                     <li>Employment</li>
                     <li>Education</li>
@@ -283,7 +326,7 @@
                         <a href="tel:+1-208-965-4310">(208) 965-4310</a>
                     </li>
                     <li>
-                        <a href="mailto:trevor.spielman@gmail.com?" target="_top">trevor.spielman@gmail.com</a>
+                        <a href="mailto:trevor.spielman@gmail.com" target="_top">trevor.spielman@gmail.com</a>
                     </li>
                     <li></li>
                 </ul>

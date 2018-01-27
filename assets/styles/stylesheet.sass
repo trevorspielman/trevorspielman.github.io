@@ -25,10 +25,15 @@ $lightgrey: #D7D7D7
     justify-content: center
     color: $goldenyellow
 .skills
-    background: $lightgrey
     justify-content: center
+    .background
+        background: linear-gradient(rgba(255, 255, 255, 0.80),rgba(0, 0, 0, 0.80)),url("../photos/skills-image.jpeg")
+        background-repeat: no-repeat
+        background-size: cover
 .about
     background: rgba($lightgrey, .5)
+    display: flex
+    align-items: center
 .history
     background: $lightgrey
 .education
@@ -45,7 +50,8 @@ $lightgrey: #D7D7D7
     color: $maroon
 .icons
     max-height: 8rem
-    max-width: 13rem
+    max-width: 10rem
+    padding: 1rem
 .btn
     background-color: $goldenyellow
     color: $darkblue
@@ -54,3 +60,4 @@ $lightgrey: #D7D7D7
 h3
     text-transform: uppercase
     color: $maroon
+    padding: 2rem

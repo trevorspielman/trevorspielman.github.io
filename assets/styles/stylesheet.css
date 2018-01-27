@@ -25,12 +25,19 @@
 }
 
 .skills {
-  background: #D7D7D7;
   justify-content: center;
+}
+
+.skills .background {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8)), url("../photos/skills-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about {
   background: rgba(215, 215, 215, 0.5);
+  display: flex;
+  align-items: center;
 }
 
 .history {
@@ -57,7 +64,8 @@
 
 .icons {
   max-height: 8rem;
-  max-width: 13rem;
+  max-width: 10rem;
+  padding: 1rem;
 }
 
 .btn {
@@ -72,4 +80,5 @@
 h3 {
   text-transform: uppercase;
   color: #6f2c3f;
+  padding: 2rem;
 }
