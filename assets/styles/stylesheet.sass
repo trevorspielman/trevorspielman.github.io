@@ -10,10 +10,8 @@ $lightgrey: #D7D7D7
     background: rgba($lightgrey, .5)
 .nav-bar
     background: lighten($darkblue, 5%)
-    color: $goldenyellow
-    vertical-align: center
 .hero
-    background: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)),url("../photos/hero-image.jpeg")
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(0, 0, 0, 0.7)),url("../photos/hero-pattern.jpg")
     background-repeat: no-repeat
     background-size: cover
     height: 80vh
@@ -23,7 +21,9 @@ $lightgrey: #D7D7D7
     flex-direction: column
     align-items: center
     justify-content: center
-    color: $goldenyellow
+    .hero-content
+        color: $goldenyellow
+/*         background: linear-gradient(rgba(#D7D7D7, 0.61),rgba(#D7D7D7, 0.61)) */
 .skills
     justify-content: center
     .background
@@ -35,13 +35,16 @@ $lightgrey: #D7D7D7
     display: flex
     align-items: center
 .history
-    background: $lightgrey
-.education
+    background: linear-gradient(rgba(255, 255, 255, 0.80),rgba(0, 0, 0, 0.80)),url("../photos/new-york-2.jpeg")
+    background-repeat: no-repeat
+    background-size: cover
+.card
     background: white
     padding: 30px
     box-shadow: 1px 1px 2px #e7e7e7
     border-radius: 4px
     margin: 20px 50px
+    color: black
 .footer
     border-top: 1rem solid $goldenyellow
     background: lighten($darkblue, 5%)
@@ -61,3 +64,4 @@ h3
     text-transform: uppercase
     color: $maroon
     padding: 2rem
+    text-shadow: .5px .5px white

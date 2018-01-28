@@ -6,12 +6,10 @@
 
 .nav-bar {
   background: #003a63;
-  color: #FED141;
-  vertical-align: center;
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url("../photos/hero-image.jpeg");
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.7)), url("../photos/hero-pattern.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -21,9 +19,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.hero .hero-content {
   color: #FED141;
 }
 
+/*         background: linear-gradient(rgba(#D7D7D7, 0.61),rgba(#D7D7D7, 0.61)) */
 .skills {
   justify-content: center;
 }
@@ -41,15 +43,18 @@
 }
 
 .history {
-  background: #D7D7D7;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8)), url("../photos/new-york-2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.education {
+.card {
   background: white;
   padding: 30px;
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin: 20px 50px;
+  color: black;
 }
 
 .footer {
@@ -81,4 +86,5 @@ h3 {
   text-transform: uppercase;
   color: #6f2c3f;
   padding: 2rem;
+  text-shadow: .5px .5px white;
 }
