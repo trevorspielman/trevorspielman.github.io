@@ -164,3 +164,51 @@ h3 {
   padding: 2rem;
   text-shadow: .5px .5px white;
 }
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.active {
+  background-color: #ccc;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  margin: 1rem 0;
+  padding: 0 18px;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  color: white;
+  background-color: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.8));
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
