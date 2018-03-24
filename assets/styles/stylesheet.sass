@@ -57,26 +57,30 @@ a:hover
     background-repeat: no-repeat
     background-size: cover
 .card
-    background: white
+    background: lighten($darkblue, 5%)
     padding: 30px
     box-shadow: 1px 1px 2px #e7e7e7
     border-radius: 4px
     margin: 20px 20px
-    color: black
+    color: white
+    display: flex
+    justify-content: center
 .footer
     border-top: 1rem solid $goldenyellow
     background: lighten($darkblue, 5%)
     color: white
+    margin-bottom: 1rem
     .nav-item
         display: inline-block
+        border-left: 2px solid $goldenyellow
     ul
         padding-left: 0px
     p
         margin-top: .5rem
     a
-        color: $goldenyellow
-    a:hover
         color: white
+    a:hover
+        color: $goldenyellow
 .maroon
     color: $maroon
 .icons

@@ -83,22 +83,26 @@ a:hover {
 }
 
 .card {
-  background: white;
+  background: #003a63;
   padding: 30px;
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin: 20px 20px;
-  color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
   border-top: 1rem solid #FED141;
   background: #003a63;
   color: white;
+  margin-bottom: 1rem;
 }
 
 .footer .nav-item {
   display: inline-block;
+  border-left: 2px solid #FED141;
 }
 
 .footer ul {
@@ -110,11 +114,11 @@ a:hover {
 }
 
 .footer a {
-  color: #FED141;
+  color: white;
 }
 
 .footer a:hover {
-  color: white;
+  color: #FED141;
 }
 
 .maroon {
