@@ -89,7 +89,8 @@
 
 .icons {
   max-height: 8rem;
-  padding: 1rem;
+  max-width: 10rem;
+  padding: .5rem;
 }
 
 .btn {
