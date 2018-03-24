@@ -8,13 +8,21 @@ $lightgrey: #D7D7D7
      outline: red solid 1px */
 .body
     background: rgba($lightgrey, .5)
-.nav-bar
-    background: lighten($darkblue, 5%)
+.navbar
+    background: lighten($darkblue, 10%)
+    height: 4rem
+.navbar-collapse
+    background: lighten($darkblue, 10%)
+    padding: 0rem 1rem 1rem 1rem
+.logo
+    height: 3.5rem
+.nav-link
+    color: white
 .hero
     background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(0, 0, 0, 0.7)),url("../photos/hero-pattern.jpg")
     background-repeat: no-repeat
     background-size: cover
-    height: 80vh
+    height: 100vh
     width: 100%
     opacity: 1
     display: flex
@@ -23,7 +31,6 @@ $lightgrey: #D7D7D7
     justify-content: center
     .hero-content
         color: $goldenyellow
-/*         background: linear-gradient(rgba(#D7D7D7, 0.61),rgba(#D7D7D7, 0.61)) */
 .skills
     justify-content: center
     .background
@@ -31,7 +38,6 @@ $lightgrey: #D7D7D7
         background-repeat: no-repeat
         background-size: cover
 .about
-    background: rgba($lightgrey, .5)
     display: flex
     align-items: center
 .history
@@ -43,21 +49,37 @@ $lightgrey: #D7D7D7
     padding: 30px
     box-shadow: 1px 1px 2px #e7e7e7
     border-radius: 4px
-    margin: 20px 50px
+    margin: 20px 20px
     color: black
 .footer
     border-top: 1rem solid $goldenyellow
     background: lighten($darkblue, 5%)
     color: white
+    p
+        margin-top: .5rem
+    a
+        color: $goldenyellow
 .maroon
     color: $maroon
 .icons
     max-height: 8rem
-    max-width: 10rem
+    // max-width: 10rem
     padding: 1rem
 .btn
-    background-color: $goldenyellow
-    color: $darkblue
+    display: flex
+    align-self: center
+    a
+        color: white
+.btn:hover
+    background-color: $maroon
+.fab
+    margin-right: .2rem
+    margin-left: .2rem
+
+.icon
+    background-image: url(../photos/bars.svg)
+    color: white
+    
 .content-center
     text-align: center
 h3

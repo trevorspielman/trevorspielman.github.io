@@ -4,15 +4,29 @@
   background: rgba(215, 215, 215, 0.5);
 }
 
-.nav-bar {
-  background: #003a63;
+.navbar {
+  background: #00497c;
+  height: 4rem;
+}
+
+.navbar-collapse {
+  background: #00497c;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.nav-link {
+  color: white;
 }
 
 .hero {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.7)), url("../photos/hero-pattern.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   opacity: 1;
   display: flex;
@@ -25,7 +39,6 @@
   color: #FED141;
 }
 
-/*         background: linear-gradient(rgba(#D7D7D7, 0.61),rgba(#D7D7D7, 0.61)) */
 .skills {
   justify-content: center;
 }
@@ -37,7 +50,6 @@
 }
 
 .about {
-  background: rgba(215, 215, 215, 0.5);
   display: flex;
   align-items: center;
 }
@@ -53,7 +65,7 @@
   padding: 30px;
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
-  margin: 20px 50px;
+  margin: 20px 20px;
   color: black;
 }
 
@@ -63,19 +75,44 @@
   color: white;
 }
 
+.footer p {
+  margin-top: .5rem;
+}
+
+.footer a {
+  color: #FED141;
+}
+
 .maroon {
   color: #6f2c3f;
 }
 
 .icons {
   max-height: 8rem;
-  max-width: 10rem;
   padding: 1rem;
 }
 
 .btn {
-  background-color: #FED141;
-  color: #002b49;
+  display: flex;
+  align-self: center;
+}
+
+.btn a {
+  color: white;
+}
+
+.btn:hover {
+  background-color: #6f2c3f;
+}
+
+.fab {
+  margin-right: .2rem;
+  margin-left: .2rem;
+}
+
+.icon {
+  background-image: url(../photos/bars.svg);
+  color: white;
 }
 
 .content-center {
