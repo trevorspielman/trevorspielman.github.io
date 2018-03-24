@@ -1,5 +1,13 @@
 /* *
      outline: red solid 1px */
+a {
+  color: #FED141;
+}
+
+a:hover {
+  color: #f1b801;
+}
+
 .body {
   background: rgba(215, 215, 215, 0.5);
 }
@@ -22,6 +30,10 @@
   color: white;
 }
 
+.nav-link:hover {
+  color: #FED141;
+}
+
 .hero {
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.7)), url("../photos/hero-pattern.jpg");
   background-repeat: no-repeat;
@@ -36,7 +48,17 @@
 }
 
 .hero .hero-content {
-  color: #FED141;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  text-shadow: 4px 4px 2px #969696;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  text-shadow: 4px 4px 2px #969696;
 }
 
 .skills {
@@ -75,12 +97,24 @@
   color: white;
 }
 
+.footer .nav-item {
+  display: inline-block;
+}
+
+.footer ul {
+  padding-left: 0px;
+}
+
 .footer p {
   margin-top: .5rem;
 }
 
 .footer a {
   color: #FED141;
+}
+
+.footer a:hover {
+  color: white;
 }
 
 .maroon {
@@ -103,7 +137,11 @@
 }
 
 .btn:hover {
-  background-color: #6f2c3f;
+  background-color: #FED141;
+}
+
+.btn:hover a {
+  color: #6f2c3f;
 }
 
 .fab {

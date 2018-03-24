@@ -30,7 +30,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
@@ -57,11 +56,9 @@
     <div class="hero">
         <div class="hero-content content-center">
             <h1>Trevor Spielman</h1>
-            <h2 class="maroon">Full Stack Developer</h2>
-            <p class="content-center">Highly Motivated and fully educated in the latest programming trends.</p>
+            <h2>Full Stack Developer</h2>
         </div>
     </div>
-    <!-- Skills icon slider/cloud -->
     <!-- About me section-->
     <div class="container-fluid skills p-4">
         <div class="row about" id="about">
@@ -82,8 +79,9 @@
             <div class="col-sm-12 col-md-4 order-md-2 order-first content-center p-4">
                 <img src="assets/photos/trevor_head_shot.jpg" alt="Headshot of Trevor Spielman">
             </div>
+            <span id="skills"></span>
         </div>
-        <div class="row background" id="skills">
+        <div class="row background">
             <div class="col-sm-12 content-center">
                 <h3>Skills and Languages</h3>
                 <div class="row justify-content-center">
@@ -123,44 +121,51 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="col content-center" id="projects">
-            <h3>Projects</h3>
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
-                            content is a little bit longer.</p>
+    <section id="projects">
+        <div class="container-fluid">
+            <div class="col content-center">
+                <h3>Projects</h3>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="/assets/photos/kanBan.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">KanBan</h5>
+                            <p class="card-text">A project management and collaboration tool. Functions similarly to Trello by design. Highlights
+                                include: user authorization, draggable tasks, and deletion of entire data trees.</p>
+                            <p>
+                                <strong>
+                                    <a href="https://kanban-trevor.herokuapp.com/#/Login">View Project</a>
+                                </strong>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 2</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <div class="card">
+                        <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 3</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
-                            card has even longer content than the first to show that equal height action.</p>
+                    <div class="card">
+                        <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                card has even longer content than the first to show that equal height action.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 4</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
-                            card has even longer content than the first to show that equal height action.</p>
+                    <div class="card">
+                        <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                                card has even longer content than the first to show that equal height action.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Work History section formatted like the "how it works" section -->
     <div class="container-fluid history" id="employment">
         <div class="row">
@@ -321,12 +326,21 @@
                     <h4>Sitemap</h4>
                 </p>
                 <ul>
-                    <li>Home</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>About</li>
-                    <li>Employment</li>
-                    <li>Education</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#employment">Employment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-sm-4">
@@ -334,7 +348,7 @@
                     <h4>I'm Social</h4>
                 </p>
                 <a href="https://github.com/trevorspielman" target="_blank">
-                    <i class="fab fa-github-square fa-2x"> </i>
+                    <i class="fab fa-github-square fa-2x"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/trevorspielman/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
