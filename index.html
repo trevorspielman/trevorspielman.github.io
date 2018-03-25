@@ -65,7 +65,7 @@
             <div class="col-sm-12 col-md-8 content-center p-4">
                 <h3>About Me</h3>
                 <p>While attending The College of Idaho, my interest in programming was piqued by an introductory C++ class
-                    and my fascination with “hello world!” Continued from there. After graduating with a Bachelors degree
+                    and my fascination with “hello world!” continued from there. After graduating with a Bachelors degree
                     in Psychology, I continued to hone my programming skills with self-taught courses geared towards the
                     SEO and Digital Marketing world.</p>
                 <p>After several attempts at learning programming beyond HTML/CSS by myself, I found Boise CodeWorks and quickly
@@ -77,11 +77,26 @@
                 </p>
             </div>
             <div class="col-sm-12 col-md-4 order-md-2 order-first content-center p-4">
-                <img src="assets/photos/trevor_head_shot.jpg" alt="Headshot of Trevor Spielman">
+                <div class="card">
+                    <img class="card-img-top" src="assets/photos/trevor_head_shot.jpg" alt="Headshot of Trevor Spielman">
+                    <h1>Trevor Spielman</h1>
+                    <p class="title">Software Developer</p>
+                    <div>
+                        <a href="https://github.com/trevorspielman" target="_blank">
+                            <i class="fab fa-github-square fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/trevorspielman/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <h4>Contact Me</h4>
+                    </p>
+                    <a href="tel:+1-208-965-4310">(208) 965-4310</a>
+                    <a href="mailto:trevor.spielman@gmail.com" target="_top">trevor.spielman@gmail.com</a>
+                </div>
             </div>
-            <span id="skills"></span>
         </div>
-        <div class="row background">
+        <div class="row background" id="skills">
             <div class="col-sm-12 content-center">
                 <h3>Skills and Languages</h3>
                 <div class="row justify-content-center">
@@ -123,40 +138,48 @@
     </div>
     <section id="projects">
         <div class="container-fluid">
-            <div class="col content-center">
-                <h3>Projects</h3>
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="/assets/photos/kanBan.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">KanBan</h5>
-                            <p class="card-text">A project management and collaboration tool. Functions similarly to Trello by design. Highlights
-                                include: user authorization, draggable tasks, and deletion of entire data trees.</p>
-                            <p class="card-text">Built with VueJS, NodeJS, and MongoDB</p>
-                            <button class="btn btn-outline-light d-inline-flex justify-self-center" role="button">
-                                <a href="https://kanban-trevor.herokuapp.com/#/Login" target="_blank">View Project</a>
-                            </button>
+            <div class="row">
+                <div class="col-sm-12 content-center">
+                    <h3>Projects</h3>
+                </div>
+                <div class="col-sm-12">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="/assets/photos/kanBan.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">KanBan</h5>
+                                <p class="card-text">A project management and collaboration tool. Functions similarly to Trello by design. Highlights
+                                    include: user authorization, draggable tasks, and deletion of entire data trees.</p>
+                                <p class="card-text">Built with VueJS, NodeJS, and MongoDB</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-light d-inline-flex justify-self-center" role="button">
+                                    <a href="https://kanban-trevor.herokuapp.com/#/Login" target="_blank">View Project</a>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="/assets/photos/vue-music.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Vue-Music</h5>
-                            <p class="card-text">Linked into iTunes API and created an app to create playlists by adding songs from the API. Songs
-                                can be organized in the playlist and multiple playlists can be created.
-                            </p>
-                            <p class="card-text">Built with VueJS, NodeJS, iTunes API, and MongoDB</p>
-                            <button class="btn btn-outline-light d-inline-flex justify-self-center" role="button">
-                                <a href="https://vue-music-trevor.herokuapp.com/" target="_blank">View Project</a>
-                            </button>
+                        <div class="card">
+                            <img src="/assets/photos/vue-music.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Vue-Music</h5>
+                                <p class="card-text">Linked into iTunes API and created an app to create playlists by adding songs from the API.
+                                    Songs can be organized in the playlist and multiple playlists can be created.
+                                </p>
+                                <p class="card-text">Built with VueJS, NodeJS, iTunes API, and MongoDB</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-light d-inline-flex justify-self-center" role="button">
+                                    <a href="https://vue-music-trevor.herokuapp.com/" target="_blank">View Project</a>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="http://via.placeholder.com/306x180" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
-                                card has even longer content than the first to show that equal height action.</p>
+                        <div class="card">
+                            <img src="http://via.placeholder.com/306x180" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                    This card has even longer content than the first to show that equal height action.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -180,7 +203,10 @@
                         <p>January 2018 - April 2018</p>
                     </div>
                     <ul>
-                        <li></li>
+                        <li> Creatively solve morning challenges and whiteboard problems using industry best practices</li>
+                        <li> UML Diagram and execute individual and group projects</li>
+                        <li> Participate and assist others in understanding each coding language being presented</li>
+                        <li> Manage and complete assigned projects within strict timelines and to meet appropriate specifications</li>
                     </ul>
                 </div>
 
@@ -188,41 +214,43 @@
                     <h4>FiftyFlowers</h4>
                 </button>
                 <div class="panel">
-                    <div>
-                        <div>
-                            <p>
-                                <strong>Professional Account Manager</strong>
-                                <p>July 2017 - January 2018</p>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div>
+                                <p>
+                                    <strong>Professional Account Manager</strong>
+                                    <p>July 2017 - January 2018</p>
+                            </div>
+                            <ul>
+                                <li> Create and maintain relationships with floral professionals, wedding venues, and event coordinators</li>
+                                <li> Manage custom quotes, orders, and shipments of flowers and supplies between the farms and account
+                                    holders
+                                </li>
+                                <li> Mediate crisis situations, find solutions, and determine compensation in the event that a shipment
+                                    was lost, damaged, or stolen</li>
+                                <li> Consult with the Marketing team and CEO to determine better strategies for bringing on new account
+                                    holders and how to better serve the existing holders</li>
+                                <li> Met quarterly sales and account creation quotas </li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li> Create and maintain relationships with floral professionals, wedding venues, and event coordinators</li>
-                            <li> Manage custom quotes, orders, and shipments of flowers and supplies between the farms and account
-                                holders
-                            </li>
-                            <li> Mediate crisis situations, find solutions, and determine compensation in the event that a shipment
-                                was lost, damaged, or stolen</li>
-                            <li> Consult with the Marketing team and CEO to determine better strategies for bringing on new account
-                                holders and how to better serve the existing holders</li>
-                            <li> Met quarterly sales and account creation quotas </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <div>
-                            <p>
-                                <strong>Product Development Manager</strong>
-                                <p>September 2016 - July 2017</p>
+                        <div class="col-md-6 col-sm-12">
+                            <div>
+                                <p>
+                                    <strong>Product Development Manager</strong>
+                                    <p>September 2016 - July 2017</p>
+                            </div>
+                            <ul>
+                                <li> Create and maintain eCommerce product pages ensuring that each aspect assist with SEO for the
+                                    site as a whole</li>
+                                <li> Consulted with and developed a plan to optimize the organization, categorization, and roll-out
+                                    of the new website to ensure optimal Search Engine benefit and user experience </li>
+                                <li> Perform Keyword and Visitor Analysis to capitalize on the wide variety of products offered and
+                                    broaden our customer base </li>
+                                <li> Coordinate multiple projects across departments with limited resources and strict timelines </li>
+                                <li> Ensure the technical aspects of each product page follows Google’s best practices for load speed,
+                                    image compression, and description length </li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li> Create and maintain eCommerce product pages ensuring that each aspect assist with SEO for the
-                                site as a whole</li>
-                            <li> Consulted with and developed a plan to optimize the organization, categorization, and roll-out
-                                of the new website to ensure optimal Search Engine benefit and user experience </li>
-                            <li> Perform Keyword and Visitor Analysis to capitalize on the wide variety of products offered and
-                                broaden our customer base </li>
-                            <li> Coordinate multiple projects across departments with limited resources and strict timelines </li>
-                            <li> Ensure the technical aspects of each product page follows Google’s best practices for load speed,
-                                image compression, and description length </li>
-                        </ul>
                     </div>
                 </div>
 
@@ -258,20 +286,20 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <h4>College of Idaho</h4>
-                    <p>
-                        <i>2008-2012</i>
-                    </p>
-                    <p>Bachelor of Art, Psychology</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
                     <h4>Boise Codeworks</h4>
                     <p>
                         <i>2018</i>
                     </p>
                     <p>Immersive Full Stack Certificate</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h4>College of Idaho</h4>
+                    <p>
+                        <i>2008-2012</i>
+                    </p>
+                    <p>Bachelor of Art, Psychology</p>
                 </div>
             </div>
         </div>

@@ -89,8 +89,17 @@ a:hover {
   border-radius: 4px;
   margin: 20px 20px;
   color: white;
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+}
+
+.card img {
+  max-width: 90%;
+  max-height: 200px;
+}
+
+.card a {
+  margin-bottom: .5rem;
 }
 
 .footer {
