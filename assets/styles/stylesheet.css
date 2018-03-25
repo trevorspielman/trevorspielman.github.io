@@ -92,6 +92,10 @@ a:hover {
   justify-items: center;
 }
 
+.education .card {
+  min-width: 290px;
+}
+
 .card {
   background: #00497c;
   padding: 30px;
@@ -144,8 +148,8 @@ a:hover {
 }
 
 .icons {
-  max-height: 8rem;
-  max-width: 10rem;
+  max-height: 6.5rem;
+  width: 8rem;
   padding: .5rem;
 }
 
