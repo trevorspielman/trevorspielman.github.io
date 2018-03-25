@@ -15,11 +15,15 @@ a:hover {
 .navbar {
   background: #00497c;
   height: 4rem;
+  display: inline-flex;
+  justify-items: center;
 }
 
 .navbar-collapse {
   background: #00497c;
   padding: 0rem 1rem 1rem 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -153,20 +157,20 @@ a:hover {
   padding: .5rem;
 }
 
-.btn {
+.btn, .btn-sm {
   display: flex;
   align-self: center;
 }
 
-.btn a {
+.btn a, .btn-sm a {
   color: white;
 }
 
-.btn:hover {
+.btn:hover, .btn-sm:hover {
   background-color: #FED141;
 }
 
-.btn:hover a {
+.btn:hover a, .btn-sm:hover a {
   color: #6f2c3f;
 }
 

@@ -15,9 +15,13 @@ a:hover
 .navbar
     background: lighten($darkblue, 10%)
     height: 4rem
+    display: inline-flex
+    justify-items: center
 .navbar-collapse
     background: lighten($darkblue, 10%)
     padding: 0rem 1rem 1rem 1rem
+    display: flex
+    align-items: center
 .logo
     height: 3.5rem
 .nav-link
@@ -101,12 +105,12 @@ a:hover
     max-height: 6.5rem
     width: 8rem
     padding: .5rem
-.btn
+.btn, .btn-sm
     display: flex
     align-self: center
     a
         color: white
-.btn:hover
+.btn:hover, .btn-sm:hover
     background-color: $goldenyellow
     a
         color: $maroon
