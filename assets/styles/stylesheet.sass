@@ -56,8 +56,14 @@ a:hover
     background: linear-gradient(rgba(255, 255, 255, 0.80),rgba(0, 0, 0, 0.80)),url("../photos/new-york-2.jpeg")
     background-repeat: no-repeat
     background-size: cover
+.education
+    display: flex
+    justify-content: space-around
+    col-sm-12
+        display: flex
+        justify-items: center
 .card
-    background: lighten($darkblue, 5%)
+    background: lighten($darkblue, 10%)
     padding: 30px
     box-shadow: 1px 1px 2px #e7e7e7
     border-radius: 4px
@@ -66,14 +72,14 @@ a:hover
     display: inline-flex 
     align-items: center
     img
-        max-width: 90%
-        max-height: 200px
+        width: 100%
+        // max-height: 300px
     a
         margin-bottom: .5rem
 
 .footer
     border-top: 1rem solid $goldenyellow
-    background: lighten($darkblue, 5%)
+    background: lighten($darkblue, 10%)
     color: white
     margin-bottom: 1rem
     .nav-item
@@ -115,7 +121,7 @@ a:hover
 h3
     text-transform: uppercase
     color: $maroon
-    padding: 2rem
+    padding: 2rem 0 1rem 0
     text-shadow: .5px .5px white
 
 //Accordian Job Section

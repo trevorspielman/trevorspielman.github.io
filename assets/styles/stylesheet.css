@@ -82,8 +82,18 @@ a:hover {
   background-size: cover;
 }
 
+.education {
+  display: flex;
+  justify-content: space-around;
+}
+
+.education col-sm-12 {
+  display: flex;
+  justify-items: center;
+}
+
 .card {
-  background: #003a63;
+  background: #00497c;
   padding: 30px;
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
@@ -94,8 +104,7 @@ a:hover {
 }
 
 .card img {
-  max-width: 90%;
-  max-height: 200px;
+  width: 100%;
 }
 
 .card a {
@@ -104,7 +113,7 @@ a:hover {
 
 .footer {
   border-top: 1rem solid #FED141;
-  background: #003a63;
+  background: #00497c;
   color: white;
   margin-bottom: 1rem;
 }
@@ -174,7 +183,7 @@ a:hover {
 h3 {
   text-transform: uppercase;
   color: #6f2c3f;
-  padding: 2rem;
+  padding: 2rem 0 1rem 0;
   text-shadow: .5px .5px white;
 }
 
