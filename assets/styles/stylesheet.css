@@ -1,11 +1,16 @@
-/* *
-     outline: red solid 1px */
 a {
   color: #FED141;
 }
 
 a:hover {
   color: #f1b801;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #6f2c3f;
+  padding: 2rem 0 1rem 0;
+  text-shadow: .5px .5px white;
 }
 
 .body {
@@ -122,7 +127,7 @@ a:hover {
   border-top: 1rem solid #FED141;
   background: #00497c;
   color: white;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .footer .nav-item {
@@ -187,11 +192,11 @@ a:hover {
   text-align: center;
 }
 
-h3 {
-  text-transform: uppercase;
-  color: #6f2c3f;
-  padding: 2rem 0 1rem 0;
-  text-shadow: .5px .5px white;
+.anchor {
+  display: block;
+  position: relative;
+  top: -4rem;
+  visibility: hidden;
 }
 
 .accordion {
